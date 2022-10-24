@@ -1,0 +1,13 @@
+{"libraries": [{
+    "algorithms": [{
+        "times": [],
+        "moves": [
+            "R",
+            "U",
+            "R'",
+            "U'"
+        ],
+        "name": "J Perm"
+    }],
+    "name": "3x3"
+}]}

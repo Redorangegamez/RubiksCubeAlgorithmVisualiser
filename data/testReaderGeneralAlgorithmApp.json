@@ -1,0 +1,37 @@
+{
+  "libraries" : [{
+    "name" : "testLibrary",
+    "algorithms" : [{
+      "name" : "testAlgorithm",
+      "moves" : [
+        "R", "U", "R'"
+      ],
+      "times" : [
+        1.1, 2.2, 3.3
+      ]
+    }, {
+      "name" : "testAlgorithm2",
+      "moves" : [
+        "F", "B", "D", "U2"
+      ],
+      "times" : [
+        2.0
+      ]
+    }]
+  }, {
+    "name" : "testLibrary2",
+    "algorithms" : [{
+      "name" : "testAlgorithmA",
+      "moves" : [],
+      "times" : []
+    }, {
+      "name" : "testAlgorithmB",
+      "moves" : [
+        "R", "U", "R'", "F'", "R", "U", "R'", "U'", "R'", "F", "R2", "U'", "R'", "U'"
+      ],
+      "times" : [
+        1.178, 1.313, 1.063, 1.729, 1.146, 0.977, 1.046, 1.096
+      ]
+    }]
+  }]
+}
